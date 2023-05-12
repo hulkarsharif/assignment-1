@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* Header */
 
 .header {
@@ -506,10 +511,12 @@
 }
 
 /* Business Hours Section */
-
-.hours-section__container {
+.hours-section__container container {
     padding: 80px;
 }
+/*.hours-section__container {
+    padding: 80px;
+}*/
 
 .hours-section__background {
     max-width: 1150px;
@@ -565,10 +572,12 @@
 #footer {
     background-color: #311f09;
 }
-
-.footer__container {
+footer__container container {
     padding: 80px;
 }
+/*.footer__container {
+    padding: 80px;
+}*/
 
 .footer__content {
     display: flex;
