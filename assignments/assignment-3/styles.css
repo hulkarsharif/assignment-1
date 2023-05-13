@@ -67,13 +67,11 @@
 /* Hero Section */
 
 .hero-section__container {
-    max-width: 1440px;
     /* padding-left: 80px;
     padding-right: 80px;
     padding-top: 80px;
     padding-bottom: 80px; */
     padding: 80px;
-    margin: 0 auto;
 
     display: flex;
     align-items: center;
@@ -130,9 +128,6 @@
 }
 
 .welcome-section__container {
-    max-width: 1440px;
-    margin: 0 auto;
-
     display: flex;
     align-items: center;
     padding-top: 80px;
@@ -172,8 +167,6 @@
 /* Menu Section */
 
 .menu-section__container {
-    max-width: 1440px;
-    margin: 0 auto;
     padding: 80px;
 }
 
@@ -259,8 +252,6 @@
     padding-right: 80px;
     padding-top: 80px;
     padding-bottom: 80px;
-    max-width: 1440px;
-    margin: 0 auto;
 
     display: flex;
     align-items: center;
@@ -303,8 +294,6 @@
     text-align: center;
 }
 .chefs-section__container {
-    max-width: 1440px;
-    margin: 0 auto;
     padding: 80px;
 }
 .chefs-section__container h2 {
@@ -323,10 +312,10 @@
     margin: 80px;
 }
 
-.chefs-section__container .btn-large-orange {
+/*.chefs-section__container .btn-large-orange {
     display: block;
     margin: 0 auto;
-}
+}*/
 
 .chefs-section__chef {
     width: calc((100% - 80px) / 3);
@@ -376,8 +365,6 @@
 }
 
 .testimonials-section__container {
-    max-width: 1440px;
-    margin: 0 auto;
     padding: 80px;
 }
 
@@ -432,9 +419,7 @@
 /* Business Hours Section */
 
 .hours-section__container {
-    max-width: 1440px;
     padding: 80px;
-    margin: 0 auto;
 }
 
 .hours-section__background {
@@ -493,8 +478,6 @@
 }
 
 .footer__container {
-    max-width: 1440px;
-    margin: 0 auto;
     padding: 80px;
 }
 
