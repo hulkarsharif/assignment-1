@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 20px;
+}
+
+.container {
+    width: max-content;
+    margin: 0 auto;
+    background-color: #ecf0f1;
+    font-size: 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    color: #3a1ba2;
+    /* display: block; */
+    /* padding-bottom: 20px; */
+}
+
+/* ul {
+    margin-bottom: 4px;
+    list-style: none;
+} */
+
+.group-numbers {
+    list-style: none;
+    margin-bottom: 4px;
+    padding-left: 58px;
+}
+
+.group-numbers li {
+    width: 58px;
+    height: 58px;
+    color: #e74c3c;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2px;
+    padding-top: 19px;
+}
+
+/* Main  */
+
+.main-section {
+    margin-bottom: 10px;
+}
+
+.period-numbers {
+    vertical-align: top;
+    display: inline-block;
+    list-style: none;
+}
+
+.period-numbers li {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 58px;
+    height: 58px;
+    margin-bottom: 2px;
+    padding-top: 19px;
+}
+
+.column {
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.elements {
+    width: 58px;
+    height: 58px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.blue .elements {
+    background-color: #7e6db6;
+}
+
+.pink .elements {
+    background-color: pink;
+}
+
+.yellow .elements {
+    background-color: orange;
+}
+
+.green .elements {
+    background-color: #1fca21;
+}
+
+/* .elements {
+    width: 58px;
+    height: 58px;
+    margin-bottom: 2px;
+    text-align: center;
+} */
+
+.elements p {
+    font-size: 10px;
+    padding-top: 4px;
+}
+
+.elements h3 {
+    color: #7e6db6;
+    font-size: 18px;
+}
+
+footer {
+    padding-left: 58px;
+}
+
+h2 {
+    color: red;
+    font-size: 14px;
+    display: inline-block;
+    width: 118px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.lanthanoids .elements {
+    display: inline-block;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.actioids .elements {
+    display: inline-block;
+    margin-right: 2px;
+    vertical-align: middle;
+}
