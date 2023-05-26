@@ -5,9 +5,9 @@
 }
 
 .container {
-    width: 1440px;
+    max-width: 1440px;
     height: 1024px;
-    background-color: aqua;
+
     margin: 0 auto;
     padding: 30px;
     font-size: 0;
@@ -15,36 +15,38 @@
 
 nav {
     height: 80px;
-    background-color: #8d8d8d;
+    /* width: 1088px; */
+    background-color: #808080;
     margin-bottom: 30px;
-    margin-right: 30px;
 }
 
 .sidebar {
-    height: 954px;
-    width: 252px;
-    background-color: #8d8d8d;
+    height: 964px;
+    /* width: 262px; */
+    width: calc((291 * 100%) / 1380 - 30px);
+    background-color: #808080;
     display: inline-block;
     margin-right: 30px;
-    vertical-align: top;
+    /* vertical-align: top; */
 }
 
 .right-box {
     /* width: 1088px; */
     height: 80px;
-
-    background-color: #8d8d8d;
+    width: calc(((1089 * 100) / 1380) * 1%);
+    background-color: #808080;
     display: inline-block;
+
     vertical-align: top;
 }
-
 .top-boxes {
     margin-bottom: 30px;
 }
 .top-box {
-    width: 250px;
+    /* width: 250px; */
+    width: calc((100% - 90px) / 4);
     height: 200px;
-    background-color: #8d8d8d;
+    background-color: #808080;
     display: inline-block;
 }
 
@@ -52,22 +54,24 @@ nav {
 .top-box-2,
 .top-box-3 {
     margin-right: 30px;
-    display: inline-block;
+    /* display: inline-block; */
 }
 .top-box-4 {
     display: inline-block;
 }
 .bottom-box-fat {
     height: 624px;
-    width: 808.5px;
-    background-color: #8d8d8d;
+    width: calc(((839 * 100) / 1089) * 1% - 30px);
+    /* width: 809px; */
+    background-color: #808080;
     margin-right: 30px;
     display: inline-block;
 }
 
 .bottom-box-thin {
     height: 624px;
-    width: 249.5px;
-    background-color: #8d8d8d;
+    /* width: 249.5px; */
+    width: calc(((250 * 100) / 1089) * 1%);
+    background-color: #808080;
     display: inline-block;
 }
