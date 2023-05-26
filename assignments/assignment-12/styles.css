@@ -84,15 +84,15 @@ h1 {
 }
 
 .blue .elements {
-    background-color: #7e6db6;
+    background-color: #689bff;
 }
 
 .pink .elements {
-    background-color: pink;
+    background-color: #fd9a98;
 }
 
 .yellow .elements {
-    background-color: orange;
+    background-color: #fecb00;
 }
 
 .green .elements {
@@ -112,7 +112,7 @@ h1 {
 }
 
 .elements h3 {
-    color: #7e6db6;
+    color: #3a1ba2;
     font-size: 18px;
 }
 
@@ -121,7 +121,7 @@ footer {
 }
 
 h2 {
-    color: red;
+    color: #e74c3c;
     font-size: 14px;
     display: inline-block;
     width: 118px;
