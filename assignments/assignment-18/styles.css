@@ -37,9 +37,6 @@ li {
 
 main {
     margin-left: -4px;
-    width: 60%;
-    display: inline-block;
-    vertical-align: top;
 }
 
 .article {
@@ -65,11 +62,15 @@ input {
     display: inline-block;
     margin-left: -4px;
 }
-
-.social-icons {
+.icons {
     position: fixed;
+    bottom: 40%;
+    right: 20px;
 }
 
-.icons {
-    background-color: blue;
+.icons img {
+    display: block;
+    margin-bottom: 20px;
+    width: 30px;
+    height: 30px;
 }
