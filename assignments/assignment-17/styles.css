@@ -49,3 +49,139 @@ section {
     top: 50px;
     left: 50px;
 }
+
+/* E-letter*/
+
+.e-letter {
+    position: relative;
+}
+.vertical {
+    height: 200px;
+    width: 25px;
+    background-color: red;
+}
+
+.horizontal {
+    width: 150px;
+    height: 25px;
+    background-color: red;
+}
+
+.horizontal-1 {
+    position: absolute;
+    top: 0;
+}
+
+.horizontal-2 {
+    position: absolute;
+    top: calc((200px - 75px) / 2 + 25px);
+}
+
+.horizontal-3 {
+    position: absolute;
+    bottom: 0;
+}
+/*Plus*/
+
+.plus {
+    position: relative;
+}
+
+.horizontal-10 {
+    width: 25px;
+    height: 200px;
+    position: absolute;
+    left: calc((200px - 25px) / 2);
+    background-color: #f00;
+}
+
+.vertical-10 {
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    top: calc((200px - 25px) / 2);
+    background-color: #f00;
+}
+
+/*O -letter*/
+
+.digit {
+    position: relative;
+}
+
+.right-vertical {
+    width: 25px;
+    height: 200px;
+    background-color: #f00;
+    position: absolute;
+    left: 75px;
+}
+
+.left-vertical {
+    width: 25px;
+    height: 200px;
+    background-color: #f00;
+}
+
+.top-line {
+    width: 100px;
+    height: 25px;
+    background-color: #f00;
+    position: absolute;
+}
+
+.bottom-line {
+    width: 100px;
+    height: 25px;
+    background-color: #f00;
+    position: absolute;
+    top: 0;
+}
+
+/*Scale*/
+
+.scale {
+    position: relative;
+    width: 400px;
+    height: 125px;
+    /* background-color: blueviolet; */
+}
+
+.horizontal-line {
+    width: 400px;
+    height: 25px;
+    background-color: #f00;
+    position: absolute;
+    top: 50px;
+}
+
+.scale-right {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #f00;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.scale-left {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #f00;
+    position: absolute;
+    /* bottom: 50px; */
+    left: 0;
+    top: 0;
+}
+
+.scale-middle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #f00;
+    position: absolute;
+    left: calc((400px - 50px) / 2);
+    bottom: 0;
+}
