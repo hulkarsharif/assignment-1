@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            /* Define the animation */
+            /* Define the animation */
+            @keyframes bounce {
+                0%,
+                100% {
+                    transform: translateY(0);
+                    animation-timing-function: ease-in;
+                }
+                50% {
+                    transform: translateY(-100px);
+                    animation-timing-function: ease-out;
+                }
+            }
+
+            /* Apply the animation */
+            .bounce {
+                animation: bounce 2s infinite;
+                border: 15px solid black;
+                width: 100px;
+                height: 100px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="bounce"></div>
+    </body>
+</html>
